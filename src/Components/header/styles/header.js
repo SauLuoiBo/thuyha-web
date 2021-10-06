@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
 	margin: 2rem 0;
 `;
 
-export const Logo = styled.h1`
+export const Logo = styled.h2`
 	color: var(--color-text);
 `;
 
@@ -23,9 +23,9 @@ export const NavLink = styled.nav`
 		color: var(--color-text);
 	}
 
-	/* @media ${(props) => props.theme.breakpoints.sm} {
+	@media ${(props) => props.theme.breakpoints.md} {
         display: none;
-    } */
+    }
 `;
 
 export const LinkS = styled(Link)`
@@ -39,5 +39,25 @@ export const LinkS = styled(Link)`
 
 	:hover{
 		color: var(--color-background2);
+	}
+`;
+
+export const Btn = styled.div`
+	display: none;
+	font-size: 4rem;
+	color: var(--color-text);
+	cursor: pointer;
+	transition: all 0.2s linear;
+
+	.ro {
+		transform: rotate(180deg);
+	}
+
+	@media ${(props) => props.theme.breakpoints.md} {
+		display: flex;
+
+		.fa-times {
+			transform: rotate(180deg);
+		}
 	}
 `;

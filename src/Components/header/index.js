@@ -1,7 +1,8 @@
 import React from "react";
-import { Logo, NavLink, Wrapper, LinkS } from "./styles/header";
+import { Logo, NavLink, Wrapper, LinkS, Btn } from "./styles/header";
 
-const index = (props, ...restProps) => {
+const Header = (props, ...restProps) => {
+	const [isOpen, setIsOpen] = React.useState(false)
 	return (
 		<Wrapper {...restProps}>
 			<Logo>{props.logo}</Logo>
@@ -19,8 +20,16 @@ const index = (props, ...restProps) => {
 					</LinkS>
 				))}
 			</NavLink>
+			<Btn className={isOpen ? "ro" : ""}>
+				<i
+					onClick={() => {
+						setIsOpen(!isOpen);
+					}}
+					className={isOpen ? "fas fa-hamburger fa-times" : "fas fa-hamburger"}
+				/>
+			</Btn>
 		</Wrapper>
 	);
 };
 
-export default index;
+export default Header;

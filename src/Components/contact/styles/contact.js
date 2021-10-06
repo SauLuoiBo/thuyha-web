@@ -1,4 +1,15 @@
 import styled from "styled-components/macro";
+import { keyframes } from "styled-components";
+
+
+const show = keyframes`
+    0%, 100% {
+    opacity: 1;
+    }
+    50% {
+		opacity: 0;
+    }
+`;
 
 export const Wrapper = styled.section`
 	background-color: var(--color-primary);
@@ -6,21 +17,23 @@ export const Wrapper = styled.section`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    box-shadow: 0 0 20px -2px #1f2235;
-    border-radius: 1.2rem;
+	box-shadow: 0 0 20px -2px #1f2235;
+	border-radius: 1.2rem;
+	padding: 2rem;
 `;
 
 export const Title = styled.h2`
 	text-align: left;
 	color: var(--color-text);
-	margin: 2rem 2rem;
-    display: flex;
-    align-self: flex-start;
-    line-height: 3.5rem;
+	/* margin: 2rem 2rem; */
+	display: flex;
+	align-self: flex-start;
+	line-height: 3.5rem;
 
 	::after {
+		transition: none;
 		content: "";
-
+		animation: ${show} 2s linear infinite;;
 		border-left: 1rem solid var(--color-text);
 		margin-left: 1rem;
 	}
@@ -33,6 +46,8 @@ export const Frame = styled.div`
 	align-items: center;
 	flex-wrap: wrap;
 	margin: 2rem 2rem;
+	width: 100%;
+	
 	/* gap: 2rem; */
 `;
 
@@ -47,20 +62,21 @@ export const Pic = styled.div`
 	width: 100%;
 	text-align: center;
 
-	/* max-width: 40rem; */
+	max-width: 40rem;
 
 	img {
 		width: 100%;
 	}
 
-    h2{
-        opacity: 0.5;
-        color: var(--color-text);
-        font-size: 2rem;
-    }
+	h2 {
+		opacity: 0.5;
+		color: var(--color-text);
+		font-size: 2rem;
+	}
 `;
 
 export const Form = styled.form`
+	max-width: 40rem;
 	flex: 1 1 30rem;
 	width: 100%;
 	opacity: 0.9;
@@ -75,8 +91,8 @@ export const Form = styled.form`
 
 	h5 {
 		color: var(--color-background2);
-        font-size: 1.6rem;
-        text-align: center;
+		font-size: 1.6rem;
+		text-align: center;
 	}
 
 	label {
@@ -96,9 +112,9 @@ export const Form = styled.form`
 		resize: none;
 		height: 10rem;
 
-        :focus{
-            border: 2px solid #007bff;
-        }
+		:focus {
+			border: 2px solid #007bff;
+		}
 	}
 
 	input {
@@ -110,10 +126,10 @@ export const Form = styled.form`
 		font-size: 1.4rem;
 		transition: 0.3s;
 		border-radius: 1rem;
-        padding: 1rem;
+		padding: 1rem;
 
-        :focus{
-            border: 2px solid #007bff;
-        }
+		:focus {
+			border: 2px solid #007bff;
+		}
 	}
 `;

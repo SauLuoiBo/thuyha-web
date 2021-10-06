@@ -1,24 +1,24 @@
 export const text = {
-    data: "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+    data: "Thiết kế hạ tầng nước và Đầu tư chứng khoán với kiến ​​thức nền tảng về Kỹ thuật với Cad, cùng với đầu tư chứng khoán với hiệu quả tối đa. Chuyên nghiệp mạnh mẽ với tinh thần sẵn sàng trở thành tài sản cho một tổ chức.",
 }
 
 export const main = [
     {
-        data: "Full Stack web and mobile development"
+        data: "Thiết kế hạ tầng đô thị"
     },
     {
-        data: "Interactive Front End as per the design"
+        data: "Thiết kế hệ thống nước khu chung cư"
     },
     {
-        data: "React and React Native"
+        data: "Đọc sách chăm chỉ"
     },
     {
-        data: "Redux for State Mnanagement"
+        data: "Cà khịa chuyên nghiệp"
     },
     {
-        data: "Building REST API"
+        data: "Đầu tư chứng khoán, bất động sản, kinh doanh online"
     },
     {
-        data: "Managing database"
+        data: "Tôi làm được"
     },
 ]

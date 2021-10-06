@@ -19,7 +19,7 @@ const About = () => {
 				<AboutContent.Break />
 				<AboutContent.BtnGroup>
 					<Button.One>Hire me</Button.One>
-					<Button.Two>Hire me</Button.Two>
+					<Button.Two>Get Resume</Button.Two>
 				</AboutContent.BtnGroup>
 			</AboutContent>
 		</Container>

@@ -6,6 +6,7 @@ export const Wrapper = styled.button`
 
 export const Text = styled.h4`
     /* color: var(--color-text); */
+    font-size: 1.6rem;
     margin: 1rem 4rem;
 `
 
@@ -25,7 +26,7 @@ export const One = styled.button`
 
 export const Two = styled.button`
     color: var(--color-text);
-    border: 2px solid linen var(--color-background2);
+    border: none;
     font-size: 12px;
     background-color: var(--color-background2);
     border-radius: 5rem;
@@ -34,7 +35,11 @@ export const Two = styled.button`
     :hover {
         /* border-color: var(--color-text); */
         color: var(--color-main);
-        background-color: var(--color-background1);
+        background-color: #CC9E8E;
+        border: 2px solid linen var(--color-background2);
+        /* border-color: var(--color-background2); */
+        /* border: 2px solid linen var(--color-background1); */
+        
     }
 `
 

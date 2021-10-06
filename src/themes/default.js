@@ -2,7 +2,7 @@ const theme = {
 	light: {
 		// font
 		fonts: {
-			title: "Poppins, sans-serif",
+			title: "Oswald, sans-serif",
 			main: "Poppins, sans-serif",
 		},
 		//color#212529

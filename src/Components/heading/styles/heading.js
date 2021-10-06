@@ -6,7 +6,9 @@ export const Wrapper = styled.div`
 	text-align: center;
     margin: 2rem 0;
 `;
-export const Title = styled.h2``;
+export const Title = styled.h2`
+	
+`;
 
 export const Text = styled.main`
     font-size: 1.4rem;

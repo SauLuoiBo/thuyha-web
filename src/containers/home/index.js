@@ -13,7 +13,10 @@ const index = () => {
 					Hello, I'm <span>Thúy Hà</span>
 				</HomeContent.Title>
 				<HomeContent.Text>
-					Knack of building applications with front and back end operations.
+				Construction engineer with 4 years of experience.
+				</HomeContent.Text>
+				<HomeContent.Text>
+				Future stock investors.
 				</HomeContent.Text>
 				<HomeContent.TypiText
 					steps={[
@@ -33,7 +36,7 @@ const index = () => {
 				/>
 				<HomeContent.BtnGroup>
 					<Button.One>Hire Me</Button.One>
-					<Button.Two>Hire me</Button.Two>
+					<Button.Two>Get Resume</Button.Two>
 				</HomeContent.BtnGroup>
 			</HomeContent>
 		</Container>
