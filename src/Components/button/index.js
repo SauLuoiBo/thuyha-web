@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper, Text, One, Two } from "./styles/button";
+import { Wrapper, Text, One, Two, Symbol } from "./styles/button";
 
 const Button = ({ children, ...restProps }) => {
 	return <Wrapper {...restProps}>{children}</Wrapper>;
@@ -24,5 +24,10 @@ Button.Two = function HomeContentTwo({ children, ...restProps }) {
 Button.Text = function HomeContentText({ children, ...restProps }) {
 	return <Text {...restProps}>{children}</Text>;
 };
+
+Button.Symbol = function HomeContentSymbol({ children, ...restProps }) {
+	return <Symbol {...restProps}>{children}</Symbol>;
+};
+
 
 export default Button;

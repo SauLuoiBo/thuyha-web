@@ -12,6 +12,7 @@ export const Inner = styled.div`
 	width: 100%;
 	text-align: center;
     overflow: hidden;
+	position: relative;
 	/* text-align: center; */
 
 	@media ${(props) => props.theme.breakpoints.xl} {
@@ -38,7 +39,7 @@ export const WrapperTwo = styled.section`
 	position: relative;
 	background-position: 50%;
 	background-attachment: fixed;
-	z-index: -1;
+	/* z-index: 1; */
 	background-color: #212529;
 	/* background:white; */
 	background-blend-mode: multiply;

@@ -1,16 +1,19 @@
 import Theme from "./styles/Theme";
 
-import { About, Contact, Home, Resume, Review } from "./containers";
+import { About, Contact, Home, Resume, Review, Screen } from "./containers";
 
 function App() {
 	return (
 		<Theme>
-			<Home />
-			<About />
-			<Resume/>
-			<Review />
-			<Contact />
-			
+			<Screen>
+				<Home />
+				<About />
+				<Resume />
+				<Review />
+				<Contact />
+			</Screen>
+
+			{/* <Screen /> */}
 		</Theme>
 	);
 }

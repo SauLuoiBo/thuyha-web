@@ -37,3 +37,23 @@ export const Two = styled.button`
         background-color: var(--color-background1);
     }
 `
+
+export const Symbol = styled.div`
+    --size-btn: ${props => props.size || `3rem`};
+    width: var(--size-btn);
+    height: var(--size-btn);
+    background-color: var(--color-background2);
+    border-radius: 1rem;
+    border: 2px solid var(--color-background1);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i{
+        font-size: 2rem;
+        color: var(--color-background1);
+    }
+`

@@ -19,7 +19,7 @@ const Resume = () => {
     }
 
 	return (
-		<Container>
+		<Container id='resume'>
 			<Heading Title="Resume" Text="My format Bio Details" />
 			<ResumeContent>
 				<ResumeContent.Bullets>

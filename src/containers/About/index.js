@@ -5,7 +5,7 @@ import { text, main } from "./data";
 
 const About = () => {
 	return (
-		<Container>
+		<Container id='about'>
 			<Heading Title="About Me" Text="Why Choose Me?" />
 			<AboutContent pic={pic}>
 				<AboutContent.Text>{text.data}</AboutContent.Text>

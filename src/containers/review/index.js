@@ -21,9 +21,9 @@ const Review = () => {
 	}, [transX]);
 
 	return (
-		<>
-			<Heading Title="Testimonial" Text="What My Client Say About Me" />
-			<Container.Bg imgUrl={bg}>
+		<section id='review' >
+			<Heading Title="Testimonial" Text="What My Client Say About Me"  />
+			<Container.Bg imgUrl={bg} >
 				<Container.Inner>
 					<Card transX={`-${transX}rem`}>
 						{data.map((item, index) => 
@@ -36,7 +36,7 @@ const Review = () => {
 					<img src={foot} alt="foot" />
 				</Container.Footer>
 			</Container.Bg>
-		</>
+		</section>
 	);
 };
 
