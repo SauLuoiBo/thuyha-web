@@ -83,7 +83,7 @@ export const Asidebar = styled.div`
 	flex-direction: column;
 	justify-content: space-evenly;
 	width: 100vw;
-	height: ${props => props.isOpen ? '100rem' : '0rem'} ;
+	height: ${props => props.isOpen ? '100vh' : '0rem'} ;
 	position: fixed;
 	top: 0;
 	left: 0;
