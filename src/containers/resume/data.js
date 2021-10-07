@@ -48,7 +48,7 @@ export const edu = [
     {
         Heading: "Công ty VCC",
         year: "2017-nay",
-        Title: "Đi lên bằng năng lực, tâm huyết bản thân, chức vụ hiện tại: Trưởng phòng thiết kế   ",
+        Title: "Đi lên bằng năng lực, tâm huyết bản thân. Trưởng phòng thiết kế   ",
         Main: "",
     },
 ]
