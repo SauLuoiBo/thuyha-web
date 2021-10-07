@@ -4,6 +4,7 @@ export const Wrapper = styled.section`
 	display: flex;
 	background-image: url(${(props) => props.imgUrl});
 	position: relative;
+	flex-wrap: wrap;
 `;
 
 export const Inner = styled.div`

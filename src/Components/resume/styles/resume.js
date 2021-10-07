@@ -152,3 +152,41 @@ export const HeadingTitle = styled.div`
 
 
 `;
+
+export const Bar = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 3rem;
+
+    --per-s: ${(props) => props.per || `20%`};
+
+    h3{
+        color: var(--color-background2);
+        position: relative;
+        ::before {
+            content: '';
+            position: absolute;
+            top: 20%;
+            left: -4rem;
+            background-color: var(--color-background2);
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+        }
+    }
+
+
+    div{
+        background-color: var(--color-background2);
+        height: 1.5rem;
+        width: 100%;
+
+        div{
+            height: 100%;
+            width: var(--per-s);
+            background-color: var(--color-primary);
+        }
+    }
+`

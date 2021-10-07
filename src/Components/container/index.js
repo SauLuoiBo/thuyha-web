@@ -9,6 +9,10 @@ const Container = ({ children, ...restProps }) => {
 	);
 };
 
+Container.Real = function ContainerReal({ children, ...restProps }) {
+	return <Wrapper {...restProps}>{children}</Wrapper>;
+};
+
 Container.Bg = function ContainerWrapperTwo({ children, ...restProps }) {
 	return <WrapperTwo {...restProps}>{children}</WrapperTwo>;
 };

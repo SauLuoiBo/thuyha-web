@@ -4,7 +4,9 @@ export const Wrapper = styled.div`
 	display: flex;
 	justify-content: center;
 	text-align: center;
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
+	margin-bottom: 6rem;
+	
 `;
 export const Title = styled.h2`
 	

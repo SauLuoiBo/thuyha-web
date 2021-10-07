@@ -31,7 +31,7 @@ export const data = [
     },
     {
         img: pic5,
-        title: "Khi cô ấy đến với VCC, trái tim tôi đã đập nhanh, nó thật đẹp và lạ. Cô ấy luôn mang tiếng cười cũng như đau khổ đến mỗi khi tôi cần. Thanks you.",
+        title: "Mỗi khi được làm việc với cô ấy là một trải nghiệm hoàn toàn khác so với những người khác, những bản bản vẽ ko thể có 1 sai sót nhỏ nào. Great Girl!!!.",
         name: "Liên Danh Chủ Đầu Tư",
         taffic: 'Thẩm tra, ban quản lý, ...'
     },

@@ -34,21 +34,21 @@ export const link = [
 
 export const edu = [
     {
-        Heading: "High School",
+        Heading: "Ninh Binh High School",
         year: "2010-2013",
-        Title: "Học Linh tinh ",
+        Title: "Học phổ thông ",
         Main: "",
     },
     {
         Heading: "Đại học Xây Dựng Hà Nội",
         year: "2013-2017",
-        Title: "Học Linh tinh ",
+        Title: "Sinh viên ưu tú, 5 tốt ",
         Main: "",
     },
     {
         Heading: "Công ty VCC",
         year: "2017-nay",
-        Title: "Học Linh tinh ",
+        Title: "Đi lên bằng năng lực, tâm huyết bản thân, chức vụ hiện tại: Trưởng phòng thiết kế   ",
         Main: "",
     },
 ]
@@ -106,4 +106,35 @@ export const inter = [
         Main: "Một ngày tôi dành 12 tiếng đồng hồ để đầu tư tài chính, Invest now or die là phương châm sống của tôi." ,
     },
     
+]
+
+export const skills = [
+    {
+        title: 'AutoCad',
+        per: '90%',
+    },
+    {
+        title: 'Revit',
+        per: '70%',
+    },
+    {
+        title: 'Thân thiện',
+        per: '90%',
+    },
+    {
+        title: 'Quan hệ đồng nghiệp',
+        per: '100%',
+    },
+    {
+        title: 'Tư vấn đầu tư',
+        per: '90%',
+    },
+    {
+        title: 'Đọc sách',
+        per: '100%',
+    },
+    {
+        title: 'Đi bộ',
+        per: '50%',
+    },
 ]

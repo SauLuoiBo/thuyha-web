@@ -8,6 +8,7 @@ import {
 	Screen,
 	Heading,
 	HeadingTitle,
+	Bar
 } from "./styles/resume";
 
 const ResumeContent = ({ children, ...restProps }) => {
@@ -56,6 +57,18 @@ ResumeContent.HeadingTitle = function HomeContentHeadingTitle({
 	...restProps
 }) {
 	return <HeadingTitle {...restProps}>{children}</HeadingTitle>;
+};
+
+ResumeContent.Bar = function HomeContentBar( {Title,
+	children,
+	...restProps
+}) {
+	return <Bar  {...restProps}>
+		<h3>{Title}</h3>
+		<div>
+			<div />
+		</div>
+	</Bar>;
 };
 
 export default ResumeContent;
