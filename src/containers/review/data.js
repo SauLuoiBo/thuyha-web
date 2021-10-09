@@ -8,8 +8,8 @@ export const data = [
     {
         img: pic1,
         title: "Thúy Hà thật đáng kinh ngạc, tôi đã mời cô ấy làm việc và thật may mắn cô ấy chấp nhận, Tôi thật hạnh phúc với các dự án cô ấy đã làm. Thúy Hà thực sự là một cô gái tốt. :v",
-        name: "Lê Anh Dũng",
-        taffic: 'CEO TTMT VCC'
+        name: "Lee Min Hoo",
+        taffic: 'CEO Tập đoàn HĐVN'
     },
     {
         img: pic2,
